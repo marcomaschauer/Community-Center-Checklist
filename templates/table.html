@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Center Checklist</title>
+    <title>Stardew Valley - Community Center Checklist</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
 </head>
 
 <body>
-
-    <h1>Community Center Checklist</h1>
+    <h1>Stardew Valley - Community Center Checklist</h1>
     <table id="community_items_table">
       <thead>
         <tr>
@@ -28,17 +27,17 @@
       <tbody>
         {% for i in item %}
         <tr>
-          <td>{{ i[0] }}</td> <!--Index-->
+          <td class="index">{{ i[0] }}</td> <!--Index-->
           {% if (i[5] == 1): %}
             <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}" checked></td> <!--Checked-->
           {% else %}
-            <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}"></td> <!--Unchecked-->
+            <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}" class="checkbox"></td> <!--Unchecked-->
           {% endif %}
-          <td>{{ i[1] }}x</td> <!--Count-->
+          <td class="count">{{ i[1] }}x</td> <!--Count-->
           <td><img src="{{ url_for('static', filename=i[4]) }}" alt=""></td> <!--Img-->
           <td>{{ i[2] }}</td> <!--Name-->
           <td>{{ i[3] }}</td> <!--Description-->
-          <td>{{ i[6] }}</td> <!--Season-->
+          <td class="season">{{ i[6] }}</td> <!--Season-->
         </tr>
         {% endfor %}
       </tbody>
