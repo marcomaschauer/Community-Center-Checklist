@@ -1,0 +1,14 @@
+html{
+    background-color: #ffefc6;
+}
+
+table, td {
+    border-collapse: collapse;
+    border: 2px solid #f6e9a5;
+    background-color: #fdfaeb;
+    width: auto;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}

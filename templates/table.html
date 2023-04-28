@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Center Checklist</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+    <script src="{{ url_for('static', filename='script.css') }}"></script>
+</head>
+
+<body>
+
+    <h1>Community Center Checklist</h1>
+    <table id="community_items_table">
+      <thead>
+        <tr>
+          <th>Nr.</th>
+          <th></th>
+          <th>Count</th>
+          <th></th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Season</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in item %}
+        <tr>
+          <td>{{ i[0] }}</td> <!--Index-->
+          {% if (i[5] == 1): %}
+            <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}" checked></td> <!--Checked-->
+          {% else %}
+            <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}"></td> <!--Unchecked-->
+          {% endif %}
+          <td>{{ i[1] }} x</td> <!--Count-->
+          <td><img src="{{ url_for('static', filename=i[4]) }}" alt=""></td> <!--Img-->
+          <td>{{ i[2] }}</td> <!--Name-->
+          <td>{{ i[3] }}</td> <!--Description-->
+          <td>{{ i[6] }}</td> <!--Season-->
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+</body>
+
+</html>
