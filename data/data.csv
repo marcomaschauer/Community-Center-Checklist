@@ -1,0 +1,183 @@
+nr,count,name,location,img_path,checked,category
+1,1,Wild Horseradish,Spring Foraging &amp; Spring Farming,./img/Wild_Horseradish.png,false,spring
+2,1,Daffodil,Spring Foraging & Pierre At Flower Dance & Spring Farming,./img/Daffodil.png,false,spring
+3,1,Leek,Spring Foraging & Spring Farming,./img/Leek.png,false,spring
+4,1,Dandelion,Spring Foraging & Pierre At Flower Dance & Spring Farming,./img/Dandelion.png,false,spring
+5,1,Spice Berry,Summer Foraging & Farm Cave Fruit Bat Option & Summer Farming,./img/Spice_Berry.png,false,spring
+6,1,Common Mushroom,Fall Foraging & Secret Woods In Spring or Fall & Farm Cave Mushrooms Option & Tapping A Mushroom Tree & Fall Farming,./img/Common_Mushroom.png,false,spring
+7,1,Parsnip,Spring Farming,./img/Parsnip.png,false,spring
+8,1,Green Bean,Spring Farming,./img/Green_Bean.png,false,spring 
+9,1,Cauliflower,Spring Farming,./img/Cauliflower.png,false,spring
+10,1,Potato,Spring Farming,./img/Potato.png,false,spring
+11,5,Parsnip,Spring Farming,./img/Parsnip.png,false,spring
+12,1,Apricot,Apricot Tree In Spring & Farm Cave Fruit Bat Option,./img/Apricot.png,false,spring
+13,1,Cherry,Cherry Tree In Spring & Farm Cave Fruit Bat Option,./img/Cherry.png,false,spring
+14,1,Orange,Orange Tree In Spring & Farm Cave Fruit Bat Option,./img/Orange.png,false,spring
+15,1,Peach,Peach Tree In Spring & Farm Cave Fruit Bat Option,./img/Peach.png,false,spring
+16,4,Apple,Apple Tree In Spring & Farm Cave Fruit Bat Option,./img/Apple.png,false,spring
+17,2,Pomegranate,Pomegranate Tree In Spring & Farm Cave Fruit Bat Option,./img/Pomegranate.png,false,spring
+18,1,Sunfish,| Any River | 6AM - 7PM | Spring & Summer | Sun |,./img/Sunfish.png,false,spring
+19,1,Catfish,| Any River & The Secret Woods Pond | 6AM - 12AM | Spring & Fall | Rain |,./img/Catfish.png,false,spring
+20,1,Shad,| Any River | 9AM - 2AM | Spring / Summer & Fall | Rain |,./img/Shad.png,false,spring
+21,1,Largemouth Bass,| Mountain Lake | 6AM - 7PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Largemouth_Bass.png,false,spring
+22,1,Carp,| The Mountain Lake / Cindersap Forest / The Secret Woods Pond & The Sewers | 6AM - 2AM | Spring / Summer & Fall | Sun / Rain / Wind / Storm & Snow |,./img/Carp.png,false,spring
+23,1,Bullhead,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bullhead.png,false,spring
+24,1,Sardine,| Ocean | 6AM - 7PM | Spring / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sardine.png,false,spring
+25,1,Bream,| Any River | 6PM - 2AM | Spring or Summer or Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bream.png,false,spring
+26,1,Eel,| Ocean | 4PM - 2AM | Spring & Fall | Rain |,./img/Eel.png,false,spring
+27,1,Ghostfish,| Mine Floor 20 Pond & Mine Floor 60 Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Ghostfish.png,false,spring
+28,1,Sandfish,| The Desert Pond | 6AM - 8PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sandfish.png,false,spring
+29,1,Woodskip,| Secret Woods Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Woodskip.png,false,spring
+30,2,Red Mushroom,Foraging In The Mines/ Summer Foraging In The Secret Woods/ Fall Foraging In The Secret Woods/ The Farm Cave Mushroom Option & Tapping A Mushroom Tree,./img/Red_Mushroom.png,false,spring
+31,2,Purple Mushroom,Foraging In The Mines & The Farm Cave Mushroom Option,./img/Purple_Mushroom.png,false,spring
+32,1,Chub,| The Mountain Lake | 6AM - 2AM | Spring/ Summer/ Fall & Winter | Sun/ Rain/ Wind/ Storm & Snow |,./img/Chub.png,false,spring
+33,1,Grape,Summer Foraging / Summer Farming & Fall Farming,./img/Grape.png,false,summer
+34,1,Spice Berry,Summer Foraging / Farm Cave Fruit Bat & Summer Farming,./img/Spice_Berry.png,false,summer
+35,1,Sweet Pea,Summer Foraging & Summer Farming,./img/Sweet_Pea.png,false,summer
+36,1,Common Mushroom,Fall Foraging / Secret Woods In Spring & Fall / Farm Cave Mushrooms Option / Tapping A Mushroom Tree & Fall Farming,./img/Common_Mushroom.png,false,summer
+37,1,Tomato,Summer Farming,./img/Tomato.png,false,summer
+38,1,Hot Pepper,Summer Farming,./img/Hot_Pepper.png,false,summer
+39,1,Blueberry,Summer Farming,./img/Blueberry.png,false,summer
+40,1,Melon,Summer Farming,./img/Melon.png,false,summer
+41,1,Corn,Summer Farming & Fall Farming,./img/Corn.png,false,summer
+42,5,Gold Quality Melon,Summer Farming,./img/Melon.png,false,summer
+43,5,Gold Quality Corn,Summer Farming & Fall Farming,./img/Corn.png,false,summer
+44,1,Apricot,Apricot Tree In Spring & Farm Cave Fruit Bat Option,./img/Apricot.png,false,summer
+45,1,Cherry,Cherry Tree In Spring & Farm Cave Fruit Bat Option,./img/Cherry.png,false,summer
+46,1,Orange,Orange Tree In Summer & Farm Cave Fruit Bat Option,./img/Orange.png,false,summer
+47,1,Peach,Peach Tree In Summer & Farm Cave Fruit Bat Option,./img/Peach.png,false,summer
+48,4,Apple,Apple Tree In Spring & Farm Cave Fruit Bat Option,./img/Apple.png,false,summer
+49,2,Pomegranate,Pomegranate Tree In Spring & Farm Cave Fruit Bat Option,./img/Pomegranate.png,false,summer
+50,1,Sunfish,| Any River | 6AM - 7PM | Spring & Summer | Sun |,./img/Sunfish.png,false,summer
+51,1,Shad,| Any River | 9AM - 2AM | Spring / Summer & Fall | Rain |,./img/Shad.png,false,summer
+52,1,Largemouth Bass,| Mountain Lake | 6AM - 7PM | Spring | Summer | Fall & Winter | Sun | Rain | Wind | Storm & Snow |,./img/Largemouth_Bass.png,false,summer
+53,1,Carp,| The Mountain Lake | Cindersap Forest / The Secret Woods Pond & The Sewers | 6AM - 2AM | Spring / Summer & Fall | Sun / Rain / Wind / Storm & Snow |,./img/Carp.png,false,summer
+54,1,Bullhead,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun/ Rain / Wind / Storm & Snow |,./img/Bullhead.png,false,summer
+55,1,Sturgeon,| The Mountain Lake | 6AM - 7PM | Summer & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sturgeon.png,false,summer
+56,1,Tuna,| Ocean | 6AM - 7PM | Summer & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Tuna.png,false,summer
+57,1,Red Snapper,| Ocean | 6AM - 7PM | Summer & Fall | Rain |,./img/Red_Snapper.png,false,summer
+58,1,Tilapia,| Ocean | 6AM - 7PM | Summer & Fall | Sun / Rain / Wind / Storm & Snow |,./img/Tilapia.png,false,summer
+59,1,Bream,| Any River | 6PM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bream.png,false,summer
+60,1,Pufferfish,| Ocean | 12 PM - 4PM | Summer | Sun |,./img/Pufferfish.png,false,summer
+61,1,Ghostfish,| Mine Floor 20 Pond & Mine Floor 60 Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Ghostfish.png,false,summer
+62,1,Sandfish,| The Desert Pond | 6AM - 8PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sandfish.png,false,summer
+63,1,Woodskip,| Secret Woods Pond | 6AM - 2AM |Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Woodskip.png,false,summer
+64,1,Fiddlehead Fern,Foraging In The Secret Woods In Summer,./img/Fiddlehead_Fern.png,false,summer
+65,1,Poppy,Summer Farming,./img/Poppy.png,false,summer
+66,2,Red Mushroom,Foraging In The Mines / Summer Foraging In The Secret Woods / Fall Foraging In The Secret Woods / The Farm Cave Mushroom Option & Tapping A Mushroom Tree,./img/Red_Mushroom.png,false,summer
+67,1,Sunflower,Summer Farming & Fall Farming,./img/Sunflower.png,false,summer
+68,1,Red Cabbage,Seeds From Peirre’s Year 2 (Get Them From The Traveling Traveling Cart),./img/Red_Cabbage.png,false,summer
+69,2,Purple Mushroom,Foraging In The Mines & The Farm Cave Mushroom Option,./img/Purple_Mushroom.png,false,summer
+70,1,Chub,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Chub.png,false,summer
+71,10,Wheat,Summer Farming & Fall Farming,./img/Wheat.png,false,summer
+72,1,Spice Berry,Summer Foraging / Farm Cave Fruit Bat & Summer Farming,./img/Spice_Berry.png,false,fall
+73,1,Common Mushroom,Fall Foraging / Secret Woods In Spring & Fall / Farm Cave Mushrooms Option / Tapping A Mushroom Tree & Fall Farming,./img/Common_Mushroom.png,false,fall
+74,1,Wild Plum,Fall Foraging / Fall Farming & Farm Cave Fruit Bats Option,./img/Wild_Plum.png,false,fall
+75,1,Hazelnut,Fall Foraging & Fall Farming,./img/Hazelnut.png,false,fall
+78,1,Blackberry,Fall Foraging / Fall Farming & Farm Cave Fruit Bats Option,./img/Blackberry.png,false,fall
+79,1,Corn,Summer Farming & Fall Farming,./img/Corn.png,false,fall
+80,1,Eggplant,Fall Farming,./img/Eggplant.png,false,fall
+81,1,Pumpkin,Fall Farming,./img/Pumpkin.png,false,fall
+82,1,Yam,Fall Farming,./img/Yam.png,false,fall
+83,5,Gold Quality Pumpkin,Fall Farming,./img/Pumpkin.png,false,fall
+84,5,Gold Quality Corn,Summer Farming & Fall Farming,./img/Corn.png,false,fall
+85,1,Apricot,Apricot Tree In Spring & Farm Cave Fruit Bat Option,./img/Apricot.png,false,fall
+86,1,Cherry,Cherry Tree In Spring & Farm Cave Fruit Bat Option,./img/Cherry.png,false,fall
+87,1,Orange,Orange Tree In Spring & Farm Cave Fruit Bat Option,./img/Orange.png,false,fall
+88,1,Peach,Peach Tree In Spring & Farm Cave Fruit Bat Option,./img/Peach.png,false,fall
+89,4,Apple,Apple Tree In Spring & Farm Cave Fruit Bat Option,./img/Apple.png,false,fall
+90,2,Pomegranate,Pomegranate Tree In Spring & Farm Cave Fruit Bat Option,./img/Pomegranate.png,false,fall
+91,1,Catfish,| Any River & The Secret Woods Pond | 6AM - 12AM | Spring & Fall | Rain |,./img/Catfish.png,false,fall
+92,1,Shad,| Any River | 9AM - 2AM | Spring / Summer & Fall | Rain |,./img/Shad.png,false,fall
+93,1,Tiger Trout,| Any River | Fall & Winter | 6AM - 7PM | Sun / Rain / Wind / Storm & Snow |,./img/Tiger_Trout.png,false,fall
+94,1,Largemouth Bass,| Mountain Lake | 6AM - 7PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Largemouth_Bass.png,false,fall
+95,1,Carp,Secret Woods Pond & The Sewers | 6AM - 2AM | Spring / Summer & Fall | Sun / Rain / Wind / Storm & Snow |,./img/Carp.png,false,fall
+96,1,Bullhead,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bullhead.png,false,fall
+97,1,Sardine,| Ocean | 6AM - 7PM | Spring / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sardine.png,false,fall
+98,1,Red Snapper,| Ocean | 6AM - 7PM | Summer & Fall | Rain |,./img/Red_Snapper.png,false,fall
+99,1,Tilapia,| Ocean | 6AM - 7PM | Summer & Fall | Sun / Rain / Wind / Storm & Snow |,./img/Tilapia.png,false,fall
+100,1,Walleye,| Any River / Any Lake & The Forest Pond | 12PM - 2AM | Fall | Rain |,./img/Walleye.png,false,fall
+101,1,Bream,| Any River | 6PM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bream.png,false,fall
+102,1,Eel,| Ocean | 4PM - 2AM | Spring & Fall | Rain |,./img/Eel.png,false,fall
+103,1,Ghostfish,| Mine Floor 20 Pond & Mine Floor 60 Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Ghostfish.png,false,fall
+104,1,Sandfish,| The Desert Pond | 6AM - 8PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sandfish.png,false,fall
+105,1,Woodskip,| Secret Woods Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Woodskip.png,false,fall
+106,2,Red Mushroom,Foraging In The Mines / Summer Foraging In The Secret Woods / Fall Foraging In The Secret Woods / The Farm Cave Mushroom Option & Tapping A Mushroom Tree,./img/Red_Mushroom.png,false,fall
+107,1,Sunflower,Summer Farming & Fall Farming,./img/Sunflower.png,false,fall
+108,2,Purple Mushroom,Foraging In The Mines & The Farm Cave Mushroom Option,./img/Purple_Mushroom.png,false,fall
+109,1,Chub,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Chub.png,false,fall
+110,10,Wheat,Summer Farming & Fall Farming,./img/Wheat.png,false,fall
+111,1,Spice Berry,Summer Foraging & Farm Cave Fruit Bat,./img/Spice_Berry.png,false,winter
+112,1,Common Mushroom,Fall Foraging / Secret Woods In Spring & Fall / Farm Cave Mushrooms Option & Tapping A Mushroom Tree,./img/Common_Mushroom.png,false,winter
+113,1,Winter Root,Till/Hoeing Soil & Artifact Spots/Worms/Twigs / Dropped By Blue Slimes In Floor 49 - 79 In The Mines & Winter Farming,./img/Winter_Root.png,false,winter
+114,1,Crystal Fruit,Winter Foraging / Dropped By Dust Sprites On Floor 49 - 79 In The Mines & Winter Farming,./img/Crystal_Fruit.png,false,winter
+115,1,Snow Yam,Till/Hoeing Soil & Artifact Spots/Worms/Twigs & Winter Farming,./img/Snow_Yam.png,false,winter
+116,1,Crocus,Winter Foraging & Winter Farming,./img/Crocus.png,false,winter
+117,1,Tiger Trout,| Any River | Fall & Winter | 6AM - 7PM | Sun / Rain / Wind / Storm & Snow |,./img/Tiger_Trout.png,false,winter
+118,1,Largemouth Bass,| Mountain Lake | 6AM - 7PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Largemouth_Bass.png,false,winter
+119,1,Carp,Secret Woods Pond & The Sewers | 6AM - 2AM | Spring / Summer & Fall | Sun / Rain / Wind / Storm & Snow |,./img/Carp.png,false,winter
+120,1,Bullhead,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bullhead.png,false,winter
+121,1,Sturgeon,| The Mountain Lake | 6AM - 7PM | Summer & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sturgeon.png,false,winter
+122,1,Sardine,| Ocean | 6AM - 7PM | Spring / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sardine.png,false,winter
+123,1,Tuna,| Ocean | 6AM - 7PM | Summer & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Tuna.png,false,winter
+124,1,Bream,| Any River | 6PM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Bream.png,false,winter
+125,1,Ghostfish,| Mine Floor 20 Pond & Mine Floor 60 Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Ghostfish.png,false,winter
+126,1,Sandfish,| The Desert Pond | 6AM - 8PM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Sandfish.png,false,winter
+127,1,Woodskip,| Secret Woods Pond | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Woodskip.png,false,winter
+128,1,Red Mushroom,Foraging In The Mines / Summer Foraging In The Secret Woods / Fall Foraging In The Secret Woods / The Farm Cave Mushroom Option & Tapping A Mushroom Tree,./img/Red_Mushroom.png,false,winter
+129,1,Purple Mushroom,Foraging In The Mines & The Farm Cave Mushroom Option,./img/Purple_Mushroom.png,false,winter
+130,1,Nautilus Shell,Winter Beach Foraging,./img/Nautilus_Shell.png,false,winter
+131,1,Chub,| The Mountain Lake | 6AM - 2AM | Spring / Summer / Fall & Winter | Sun / Rain / Wind / Storm & Snow |,./img/Chub.png,false,winter
+132,198,Wood,Trees,./img/Wood.png,false,other
+133,99,Stone,Rocks,./img/Stone.png,false,other
+134,10,Hardwood,Stumps & Logs,./img/Hardwood.png,false,other
+135,1,Coconut,Desert Foraging,./img/Coconut.png,false,other
+136,1,Cactus Fruit,Desert Foraging,./img/Cactus_Fruit.png,false,other
+137,1,Cave Carrot,The Mines By Smashing Boxes Or Tilling/Hoeing Soil,./img/Cave_Carrot.png,false,other
+138,2,Maple Syrup,Tapped Maple Tree,./img/Maple_Syrup.png,false,other
+139,2,Oak Resin,Tapped Oak Tree,./img/Oak_Resin.png,false,other
+140,1,Pine Tar,Tapped Pine Tree,./img/Pine_Tar.png,false,other
+141,1,Morel,Foraging In The Secret Woods & The Farm Cave Mushroom Option,./img/Morel.png,false,other
+142,1,Large Milk,Cows,./img/Large_Milk.png,false,other
+143,1,Large Brown Egg,Chickens,./img/Large_Brown_Egg.png,false,other
+144,1,Large White Egg,Chickens,./img/Large_White_Egg.png,false,other
+145,1,Large Goat Milk,Goats,./img/Large_Goat_Milk.png,false,other
+146,1,Wool,Sheep & Rabbits,./img/Wool.png,false,other
+147,1,Duck Egg,Ducks,./img/Duck_Egg.png,false,other
+148,1,Truffle Oil,Truffle In An Oil Maker,./img/Truffle_Oil.png,false,other
+149,1,Cloth,Wool In A Loom / Soggy Newspaper In A Recycling Machine & The Desert Trader,./img/Cloth.png,false,other
+150,1,Goat Cheese,Goat Milk In A Cheese Press,./img/Goat_Cheese.png,false,other
+151,1,Cheese,Milk In A Cheese Press,./img/Cheese.png,false,other
+152,1,Any Honey,Bee House & Oasis,./img/Honey.png,false,other
+153,1,Jelly,Any Fruit In A Preserves Jar,./img/Jelly.png,false,other
+154,1,Lobster,Crab Pots Ocean,./img/Lobster.png,false,other
+155,1,Crayfish,Crab Pots Freshwater,./img/Crayfish.png,false,other
+156,1,Crab,Crab Pots Ocean / Drops From Rock Crabs In The Mines & Drops From Lava Crabs In The Mines,./img/Crab.png,false,other
+157,1,Cockle,Crab Pots Ocean & Beach Foraging,./img/Cockle.png,false,other
+158,1,Mussel,Crab Pots Ocean & Beach Foraging,./img/Mussel.png,false,other
+159,1,Shrimp,Crab Pots Ocean,./img/Shrimp.png,false,other
+160,1,Snail,Crab Pots Freshwater,./img/Snail.png,false,other
+161,1,Periwinkle,Crab Pots Freshwater,./img/Periwinkle.png,false,other
+162,1,Oyster,Crab Pots Ocean & Beach Foraging,./img/Oyster.png,false,other
+163,1,Clam,Crab Pots Ocean & Beach Foraging,./img/Clam.png,false,other
+164,1,Copper Bar,5 Copper Ore In A Furnace,./img/Copper_bar.png,false,other
+165,1,Iron Bar,5 Iron Ore In A Furnace,./img/Iron_Bar.png,false,other
+166,1,Gold Bar,5 Gold Ore In A Furnace,./img/Gold_Bar.png,false,other
+167,1,Quartz,Foraging On Any Floor The Mines,./img/Quartz.png,false,other
+168,1,Earth Crystal,Foraging On Floors 1 - 39 In The Mines / In Geodes / In Omni Geodes & 10% Chance To Drop From Duggies On Floors 1 - 29 In The Mines,./img/Earth_Crystal.png,false,other
+169,1,Frozen Tear,Foraging On Floors 40 - 79 In The Mines / In Frozen Geodes / In Omni Geodes & 2% Chance To Drop From Dust Sprites On Floors 40 - 80,./img/Frozen_Tear.png,false,other
+170,1,Fire Quartz,Foraging On Floor 80 - 120 In The Mines / In Magma Geodes & In Omni Geodes,./img/Fire_Quartz.png,false,other
+171,99,Slime,100% Chance To Drop From Any Slimes In The Mines,./img/Slime.png,false,other
+172,10,Bat Wing,95% Chance To Drop From Any Bat Besides Iridium Bats In The Mines,./img/Bat_Wing.png,false,other
+173,1,Solar Essence,95% Chance To Be Dropped By Ghosts In The Mines / 75% Chance To Be Dropped By Squid Kids In The Mines / 65% Chance To Be Dropped By Metal Heads In The Mines & 99% Chance To Be Dropped By Mummies In The Skull Cavern,./img/Solar_Essence.png,false,other
+174,1,Void Essence,75% Chance To Be Dropped By Shadow Brutes In The Mines & 99% Chance To Be Dropped By Serpents In The Skull Cavern,./img/Void_Essence.png,false,other
+175,1,Truffle,Pigs,./img/Truffle.png,false,other
+176,1,Maki Roll,1 Any Fish / 1 Seaweed / 1 Rice & Recipe From The Queen Of Sauce & The Stardrop Saloon,./img/Maki_Roll.png,false,other
+177,1,Fried Egg,1 Egg,./img/Fried_Egg.png,false,other
+178,1,Sea Urchin,Beach Foraging In The East Side Of The Fixable Bridge,./img/Sea_Urchin.png,false,other
+179,1,Duck Feather,Ducks,./img/Duck_Feather.png,false,other
+180,1,Aquamarine,Aquamarine Nodes / Boxes In The Mines & Fishing Treasure Chests,./img/Aquamarine.png,false,other
+181,1,Frozen Geode,The Mines 40 - 79,./img/Frozen_Geode.png,false,other
+182,10,Hay,Marnie’s Ranch / Desert Trader / Harvesting Grass & Harvesting Wheat,./img/Hay.png,false,other
+183,1,Any Wine,Any Fruit In A Keg,./img/Wine.png,false,other
+184,1,Rabbit’s Foot,Rabbits & 0.8% Chance To Drop From A Serpent In The Skull Cavern,./img/Rabbits_Foot.png,false,other
