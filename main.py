@@ -22,6 +22,15 @@ def index():
   items = getitems()
   # RENDER HTML PAGE
   return render_template("table.html", item = items)
+
+#HANDLE FORM DATA
+@app.route('/handle_data', methods=['POST'])
+def handle_data():
+    projectpath = request.form['projectFilepath']
+    #TODO foreach checkbox in form, if checked write into database, using name attribute
+    # your code
+    # return a response
+
  
 # START
 if __name__ == "__main__":
