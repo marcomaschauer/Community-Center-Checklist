@@ -16,21 +16,23 @@ def getitems():
   conn.close()
   return results
 
-# SHOW ITEMS IN TABLE
+# DEFAULT ROUTE
 @app.route("/", methods=['GET', 'POST'])
 def index():
   if request.method == 'GET':
     items = getitems()
     return render_template("table.html", item = items)
-  else:
+  else: #POST TODO: 
     data = request.form.getlist('checkbox')
+    conn = sqlite3.connect(DBFILE)
+    cursor = conn.cursor()
+    cursor.execute(f"UPDATE `community_center` SET checked = 'false' WHERE checked = 'true'")
+    conn.commit()
     for item in data:
-      conn = sqlite3.connect(DBFILE)
-      cursor = conn.cursor()
       cursor.execute(f"UPDATE `community_center` SET checked = 'true' WHERE name = '{item}'")
       conn.commit()
-      conn.close()
-      items = getitems()
+    conn.close()
+    items = getitems()
     return render_template("table.html", item = items)
  
 # START
