@@ -9,7 +9,7 @@ nr,count,name,location,img_path,checked,category
 8,1,Green Bean,Spring Farming,./img/Green_Bean.png,false,spring 
 9,1,Cauliflower,Spring Farming,./img/Cauliflower.png,false,spring
 10,1,Potato,Spring Farming,./img/Potato.png,false,spring
-11,5,Parsnip,Spring Farming,./img/Parsnip.png,false,spring
+11,5,Gold Quality Parsnip,Spring Farming,./img/Parsnip.png,false,spring
 12,1,Apricot,Apricot Tree In Spring & Farm Cave Fruit Bat Option,./img/Apricot.png,false,spring
 13,1,Cherry,Cherry Tree In Spring & Farm Cave Fruit Bat Option,./img/Cherry.png,false,spring
 14,1,Orange,Orange Tree In Spring & Farm Cave Fruit Bat Option,./img/Orange.png,false,spring
