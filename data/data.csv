@@ -1,5 +1,5 @@
 nr,count,name,location,img_path,checked,category
-1,1,Wild Horseradish,Spring Foraging & Spring Farming,./img/Wild_Horseradish.png,false,spring
+1,1,Wild Horseradish,Spring Foraging and Spring Farming,./img/Wild_Horseradish.png,false,spring
 2,1,Daffodil,Spring Foraging & Pierre At Flower Dance & Spring Farming,./img/Daffodil.png,false,spring
 3,1,Leek,Spring Foraging & Spring Farming,./img/Leek.png,false,spring
 4,1,Dandelion,Spring Foraging & Pierre At Flower Dance & Spring Farming,./img/Dandelion.png,false,spring

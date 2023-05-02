@@ -3,10 +3,10 @@ import sqlite3
 import pandas as pd
   
 # Connect to SQLite database
-conn = sqlite3.connect(r'C:/Users/marco.maschauer/Documents/GitHub/Community Center Checklist/data/community_center_data.db')
+conn = sqlite3.connect(r'./community_center_data.db')
   
 # Load CSV data into Pandas DataFrame
-stud_data = pd.read_csv('C:/Users/marco.maschauer/Documents/GitHub/Community Center Checklist/data/data.csv')
+stud_data = pd.read_csv('C:\\Users\\marco.maschauer\\Documents\\GitHub\\Community-Center-Checklist\\data\\data.csv')
 # Write the data to a sqlite table
 stud_data.to_sql('community_center', conn, if_exists='replace', index=False)
   
