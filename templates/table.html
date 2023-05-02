@@ -13,7 +13,7 @@
 
 <body>
     <h1>Stardew Valley - Community Center Checklist</h1>
-  <form action="{{ url_for('handle_data') }}" method="post" id="item_list">
+  <form action="{{ url_for('index') }}" method="post" name="item_list" id="item_list">
     <table id="community_items_table">
       <thead>
         <tr>
@@ -30,10 +30,10 @@
         {% for i in item %}
         <tr>
           <td class="index">{{ i[0] }}</td> <!--Index-->
-          {% if (i[5] == 1): %}
-            <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}" class="checkbox" onchange="submit()" checked></td> <!--Checked-->
+          {% if (i[5] == "true"): %}
+            <td><input type="checkbox" name="checkbox" id="{{ i[2] }}" class="checkbox" value="{{ i[2] }}" onchange="submit()" checked></td> <!--Checked-->
           {% else %}
-            <td><input type="checkbox" name="{{ i[2] }}" id="{{ i[2] }}" class="checkbox" onchange="submit()"></td> <!--Unchecked-->
+            <td><input type="checkbox" name="checkbox" id="{{ i[2] }}" class="checkbox" value="{{ i[2] }}" onchange="submit()"></td> <!--Unchecked-->
           {% endif %}
           <td class="count">{{ i[1] }}x</td> <!--Count-->
           <td><img src="{{ url_for('static', filename=i[4]) }}" alt=""></td> <!--Img-->

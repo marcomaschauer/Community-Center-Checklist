@@ -17,20 +17,21 @@ def getitems():
   return results
 
 # SHOW ITEMS IN TABLE
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def index():
-  items = getitems()
-  # RENDER HTML PAGE
-  return render_template("table.html", item = items)
-
-#HANDLE FORM DATA
-@app.route('/handle_data', methods=['POST'])
-def handle_data():
-    projectpath = request.form['projectFilepath']
-    #TODO foreach checkbox in form, if checked write into database, using name attribute
-    # your code
-    # return a response
-
+  if request.method == 'GET':
+    items = getitems()
+    return render_template("table.html", item = items)
+  else:
+    data = request.form.getlist('checkbox')
+    for item in data:
+      conn = sqlite3.connect(DBFILE)
+      cursor = conn.cursor()
+      cursor.execute(f"UPDATE `community_center` SET checked = 'true' WHERE name = '{item}'")
+      conn.commit()
+      conn.close()
+      items = getitems()
+    return render_template("table.html", item = items)
  
 # START
 if __name__ == "__main__":
