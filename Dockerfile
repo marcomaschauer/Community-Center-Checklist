@@ -7,4 +7,4 @@ RUN pip install Flask
 
 COPY . . 
 
-CMD [ "flask", "--app", "main", "run", "-h", "localhost", "-p", "80"]
+CMD [ "flask", "--app", "main", "run", "-h", "0.0.0.0", "-p", "80"]
