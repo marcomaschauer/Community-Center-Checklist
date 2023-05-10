@@ -7,6 +7,8 @@ services:
       - "traefik.http.routers.stardewvalley.rule=Host(`stardewvalley.marcom.one`)"
       - "traefik.http.routers.stardewvalley.middlewares=test-auth"
       - "traefik.http.middlewares.test-auth.basicauth.users=marco:$$apr1$$wvlm891c$$O.2.nmAFzrCgybwJrveiL1"
+    volumes:
+      - /home/marcomaschauer/Docker/Community-Center-Checklist/data:/usr/stardewvalley/data
     networks:
       - traefik_web
     ports:
