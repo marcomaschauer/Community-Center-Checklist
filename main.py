@@ -22,7 +22,7 @@ def index():
   if request.method == 'GET':
     items = getitems()
     return render_template("table.html", item = items)
-  else: #POST TODO: 
+  else: #POST JS Script das on klick event abfängt und dann den Post request an das Python Backend weitergibt mit Element welches sich geändert hat un den Zustand. Also "Apfel" und "checked". 
     data = request.form.getlist('checkbox')
     conn = sqlite3.connect(DBFILE)
     cursor = conn.cursor()
