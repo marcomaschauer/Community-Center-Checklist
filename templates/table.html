@@ -10,10 +10,20 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
-
 <body>
     <h1>Stardew Valley - Community Center Checklist</h1>
   <form action="{{ url_for('index') }}" method="post" name="item_list" id="item_list">
+    <select name="filter" id="filter-select" onchange="this.form.submit()">
+      <option value="">--select filter--</option>
+      <option value="all">all</option>
+      <option value="checked">checked only</option>
+      <option value="unchecked">unchecked only</option>
+      <option value="spring">spring</option>
+      <option value="summer">summer</option>
+      <option value="fall">fall</option>
+      <option value="winter">winter</option>
+      <option value="other">other</option>
+    </select>
     <table id="community_items_table">
       <thead>
         <tr>
@@ -31,9 +41,9 @@
         <tr>
           <td class="index">{{ i[0] }}</td> <!--Index-->
           {% if (i[5] == "true"): %}
-            <td><input type="checkbox" name="checkbox" id="{{ i[2] }}" class="checkbox" value="{{ i[2] }}" onchange="submit()" checked></td> <!--Checked-->
+            <td><input type="checkbox" name="checkbox" id="{{ i[2] }}" class="checkbox" value="{{ i[2] }}" checked></td> <!--Checked-->
           {% else %}
-            <td><input type="checkbox" name="checkbox" id="{{ i[2] }}" class="checkbox" value="{{ i[2] }}" onchange="submit()"></td> <!--Unchecked-->
+            <td><input type="checkbox" name="checkbox" id="{{ i[2] }}" class="checkbox" value="{{ i[2] }}"></td> <!--Unchecked-->
           {% endif %}
           <td class="count">{{ i[1] }}x</td> <!--Count-->
           <td><img src="{{ url_for('static', filename=i[4]) }}" alt=""></td> <!--Img-->
