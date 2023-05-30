@@ -14,7 +14,7 @@ def getitems(filter = "all"):
   match filter:
     case 'all': cursor.execute("SELECT * FROM `community_center`"),
     case 'checked': cursor.execute("SELECT * FROM `community_center` WHERE checked = 'true' "),
-    case 'unchecked': cursor.execute("SELECT * FROM `community_center` WHERE checked = 'false' "),
+    case 'unchecked': cursor.execute("SELECT * FROM `community_center` WHERE checked = 'false' OR checked = '0' "),
     case 'spring': cursor.execute("SELECT * FROM `community_center` WHERE category = 'spring' "),
     case 'summer': cursor.execute("SELECT * FROM `community_center` WHERE category = 'summer' "),
     case 'fall': cursor.execute("SELECT * FROM `community_center` WHERE category = 'fall' "),
